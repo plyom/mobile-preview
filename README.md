@@ -5,7 +5,7 @@
 ## Getting Started
 This plugin requires jQuery `>=1.9.0`
 
-If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
+If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide. Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
 npm install mobile-preview --save
@@ -77,4 +77,4 @@ MobilePreview.currentDevice = MobilePreview.devices.ios;
 
 ## Release History
 
-* 2013-08-25   v0.1.0   A new component's born.
+* 2013-08-25   v0.1.0   Born a new component.

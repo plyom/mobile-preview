@@ -1,17 +1,23 @@
 {
   "name": "mobile-preview",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Web component to preview a custom template on mobile",
-  "main": "index.js",
+  "main": "src/mobile-preview.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "mobile-preview"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/plyom/mobile-preview.git"
+  },
   "author": "Fernando Pileggi <fernando@plyom.com> (http://www.plyom.com)",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "jquery": "^2.1.4"
+  },
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-clean": "^0.6.0",
