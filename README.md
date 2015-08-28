@@ -1,4 +1,4 @@
-# mobile-preview v0.1.0
+# mobile-preview
 
 > Generates a dynamic display of mobile phones
 
@@ -19,7 +19,10 @@ Once the plugin has been installed, it may be enabled inside your code:
 
 ```js
 MobilePreview.render();
+// OR
+MobilePreview.setPlatformTo('ios');
 ```
+
 
 ### Options
 
@@ -75,6 +78,13 @@ Set initial platform or model.
 MobilePreview.currentDevice = MobilePreview.devices.ios;
 ```
 
+#### Change the content
+```js
+MobilePreview.display.content = '<div class="hello">Hello World!</div>';
+```
+
 ## Release History
 
+* 2013-08-25   v0.1.2   Fix status bar.
+* 2013-08-25   v0.1.1   Adjusts on layout.
 * 2013-08-25   v0.1.0   Born a new component.
