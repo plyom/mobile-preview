@@ -1,6 +1,6 @@
 {
   "name": "mobile-preview",
-  "version": "0.1.5",
+  "version": "0.1.2",
   "description": "Web component to preview a custom template on mobile",
   "main": "src/mobile-preview.js",
   "scripts": {
